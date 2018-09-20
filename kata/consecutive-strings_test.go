@@ -23,4 +23,14 @@ func TestLongestConsec(t *testing.T) {
 			"fhiusafgirssgs",
 		},
 	}
+	for _, tc := range tt {
+		t.Run(tc.name, func(t *testing.T) {
+			s := LongestConsec(tc.inputSlice, tc.inputInt)
+			if s != tc.output {
+				t.Errorf("output for %v should be %v; got %v", tc.name,
+					tc.output,
+					s)
+			}
+		})
+	}
 }
