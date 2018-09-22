@@ -11,6 +11,7 @@ My attempts at completing katas with Go using test driven development
 - **7kyu**
 
   - [Mumbling](https://www.codewars.com/kata/mumbling)
+  - [Are The Numbers In Order?](https://www.codewars.com/kata/are-the-numbers-in-order/train/go)
 
 - **6kyu**
 
