@@ -20,3 +20,4 @@ My attempts at completing katas with Go using test driven development
   - [Piano Kata Part 1](https://www.codewars.com/kata/piano-kata-part-1/train/go)
   - [Consecutive strings](https://www.codewars.com/kata/consecutive-strings/train/go)
   - [Roman Numerals Decoder](https://www.codewars.com/kata/roman-numerals-decoder/train/go)
+  - [Split Strings](https://www.codewars.com/kata/split-strings)
