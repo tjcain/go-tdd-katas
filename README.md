@@ -21,6 +21,7 @@ My attempts at completing code wars katas with Go using test driven development
   - [Consecutive strings](https://www.codewars.com/kata/consecutive-strings/train/go)
   - [Roman Numerals Decoder](https://www.codewars.com/kata/roman-numerals-decoder/train/go)
   - [Split Strings](https://www.codewars.com/kata/split-strings)
+  - [Simple String Indices](https://www.codewars.com/kata/simple-string-indices/go)
 
 - **5kyu**
   - [Pick Peaks](https://www.codewars.com/kata/pick-peaks/go)
