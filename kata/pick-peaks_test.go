@@ -32,7 +32,12 @@ func TestPickPeaks(t *testing.T) {
 			PosPeaks{Pos: []int{2, 4}, Peaks: []int{3, 2}},
 		},
 		{
-			"21312222 - it should ignore plateaus on the edge of the array",
+			"22222132 - should ignore plateaus on the edge of the array",
+			[]int{2, 2, 2, 2, 2, 1, 3, 2},
+			PosPeaks{Pos: []int{6}, Peaks: []int{3}},
+		},
+		{
+			"21312222 - should ignore plateaus on the edge of the array",
 			[]int{2, 1, 3, 1, 2, 2, 2, 2},
 			PosPeaks{Pos: []int{2}, Peaks: []int{3}},
 		},

@@ -1,6 +1,6 @@
 # Go TDD Katas
 
-My attempts at completing katas with Go using test driven development
+My attempts at completing code wars katas with Go using test driven development
 
 ## Challenges Completed
 
@@ -21,3 +21,6 @@ My attempts at completing katas with Go using test driven development
   - [Consecutive strings](https://www.codewars.com/kata/consecutive-strings/train/go)
   - [Roman Numerals Decoder](https://www.codewars.com/kata/roman-numerals-decoder/train/go)
   - [Split Strings](https://www.codewars.com/kata/split-strings)
+
+- **5kyu**
+  - [Pick Peaks](https://www.codewars.com/kata/pick-peaks/go)

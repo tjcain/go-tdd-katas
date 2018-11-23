@@ -10,18 +10,16 @@ type PosPeaks struct {
 // (or local maxima) of a numeric array.
 func PickPeaks(array []int) PosPeaks {
 	PosPeaks := PosPeaks{[]int{}, []int{}}
-
-	for i := len(array) - 1; i > 3; i-- {
-		if array[i] != array[i-1] {
-			break
-		}
-		array = array[:i]
-	}
+	p := 0
 
 	for i := 1; i < len(array)-1; i++ {
-		if array[i] > array[i-1] && array[i] >= array[i+1] {
-			PosPeaks.Pos = append(PosPeaks.Pos, i)
-			PosPeaks.Peaks = append(PosPeaks.Peaks, array[i])
+		if array[i] > array[i-1] {
+			p = i
+		}
+		if array[i] > array[i+1] && p != 0 {
+			PosPeaks.Pos = append(PosPeaks.Pos, p)
+			PosPeaks.Peaks = append(PosPeaks.Peaks, array[p])
+			p = 0
 		}
 	}
 	return PosPeaks
